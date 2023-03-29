@@ -233,3 +233,121 @@ VALUES ('Ticket 109', '2023-03-28 18:29:14', '2023-03-28 18:29:14', 'Open', 4, 3
 
 INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
 VALUES ('Ticket 110', '2023-03-28 19:15:57', '2023-03-28 19:15:57', 'Open', 5, 1);
+
+-- Creating 10 ticketss updated/resolved/created 2023-03-29
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket updated today 1', '2023-03-29 09:00:00', '2023-03-29 11:00:00', 'Open', 4, 1);
+UPDATE tickets SET resolved_date = '2023-03-29 12:00:00', status = 'Resolved' WHERE id = 1;
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket updated today 2', '2023-03-29 10:00:00', '2023-03-29 11:30:00', 'Open', 4, 2);
+UPDATE tickets SET resolved_date = '2023-03-29 12:30:00', status = 'Resolved' WHERE id = 2;
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket created today', '2023-03-29 12:00:00', '2023-03-29 12:00:00', 'Open', 4, 3);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket resolved today', '2023-03-29 13:00:00', '2023-03-29 13:00:00', '2023-03-29 15:00:00', 'Resolved', 4, 1);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket resolved today 2', '2023-03-29 14:00:00', '2023-03-29 14:00:00', '2023-03-29 16:00:00', 'Resolved', 5, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket updated today 3', '2023-03-29 15:00:00', '2023-03-29 17:00:00', 'Open', 5, 3);
+UPDATE tickets SET resolved_date = '2023-03-29 12:00:00', status = 'Resolved' WHERE id = 6;
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket updated today 4', '2023-03-29 16:00:00', '2023-03-29 17:30:00', 'Open', 5, 1);
+UPDATE tickets SET resolved_date = '2023-03-29 13:00:00', status = 'Resolved' WHERE id = 7;
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket resolved today 3', '2023-03-29 17:00:00', '2023-03-29 17:00:00', '2023-03-29 18:00:00', 'Resolved', 5, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 101', '2023-03-29 10:02:34', '2023-03-29 10:02:34', 'Open', 4, 1);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket 102 (Resolved)', '2023-03-29 11:18:42', '2023-03-29 11:18:42', '2023-03-29 13:45:22', 'Resolved', 4, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 103', '2023-03-29 12:09:55', '2023-03-29 12:09:55', 'Open', 4, 3);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket 104 (Resolved)', '2023-03-29 13:33:07', '2023-03-29 15:40:18', '2023-03-29 16:10:02', 'Resolved', 4, 1);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 105', '2023-03-29 14:22:19', '2023-03-29 14:22:19', 'Open', 5, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket 106 (Resolved)', '2023-03-29 15:45:21', '2023-03-29 16:18:33', '2023-03-29 17:23:55', 'Resolved', 5, 3);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 107', '2023-03-29 16:55:40', '2023-03-29 16:55:40', 'Open', 4, 1);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket 108 (Resolved)', '2023-03-29 17:42:01', '2023-03-29 19:10:10', '2023-03-29 20:25:40', 'Resolved', 5, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 109', '2023-03-29 18:29:14', '2023-03-29 18:29:14', 'Open', 4, 3);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 110', '2023-03-29 19:15:57', '2023-03-29 19:15:57', 'Open', 5, 1);
+
+-- Creating 10 ticketss updated/resolved/created 2023-03-31
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket updated today 1', '2023-03-31 09:00:00', '2023-03-31 11:00:00', 'Open', 4, 1);
+UPDATE tickets SET resolved_date = '2023-03-31 12:00:00', status = 'Resolved' WHERE id = 1;
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket updated today 2', '2023-03-31 10:00:00', '2023-03-31 11:30:00', 'Open', 4, 2);
+UPDATE tickets SET resolved_date = '2023-03-31 12:30:00', status = 'Resolved' WHERE id = 2;
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket created today', '2023-03-31 12:00:00', '2023-03-31 12:00:00', 'Open', 4, 3);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket resolved today', '2023-03-31 13:00:00', '2023-03-31 13:00:00', '2023-03-31 15:00:00', 'Resolved', 4, 1);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket resolved today 2', '2023-03-31 14:00:00', '2023-03-31 14:00:00', '2023-03-31 16:00:00', 'Resolved', 5, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket updated today 3', '2023-03-31 15:00:00', '2023-03-31 17:00:00', 'Open', 5, 3);
+UPDATE tickets SET resolved_date = '2023-03-31 12:00:00', status = 'Resolved' WHERE id = 6;
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket updated today 4', '2023-03-31 16:00:00', '2023-03-31 17:30:00', 'Open', 5, 1);
+UPDATE tickets SET resolved_date = '2023-03-31 13:00:00', status = 'Resolved' WHERE id = 7;
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket resolved today 3', '2023-03-31 17:00:00', '2023-03-31 17:00:00', '2023-03-31 18:00:00', 'Resolved', 5, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 101', '2023-03-31 10:02:34', '2023-03-31 10:02:34', 'Open', 4, 1);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket 102 (Resolved)', '2023-03-31 11:18:42', '2023-03-31 11:18:42', '2023-03-31 13:45:22', 'Resolved', 4, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 103', '2023-03-31 12:09:55', '2023-03-31 12:09:55', 'Open', 4, 3);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket 104 (Resolved)', '2023-03-31 13:33:07', '2023-03-31 15:40:18', '2023-03-31 16:10:02', 'Resolved', 4, 1);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 105', '2023-03-31 14:22:19', '2023-03-31 14:22:19', 'Open', 5, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket 106 (Resolved)', '2023-03-31 15:45:21', '2023-03-31 16:18:33', '2023-03-31 17:23:55', 'Resolved', 5, 3);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 107', '2023-03-31 16:55:40', '2023-03-31 16:55:40', 'Open', 4, 1);
+
+INSERT INTO tickets (subject, created_at, updated_at, resolved_date, status, customerId, priorityId) 
+VALUES ('Ticket 108 (Resolved)', '2023-03-31 17:42:01', '2023-03-31 19:10:10', '2023-03-31 20:25:40', 'Resolved', 5, 2);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 109', '2023-03-31 18:29:14', '2023-03-31 18:29:14', 'Open', 4, 3);
+
+INSERT INTO tickets (subject, created_at, updated_at, status, customerId, priorityId) 
+VALUES ('Ticket 110', '2023-03-31 19:15:57', '2023-03-31 19:15:57', 'Open', 5, 1);
